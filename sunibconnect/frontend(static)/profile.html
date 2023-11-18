@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUNIB CONNECT| Profile</title>
+
+    <link rel="stylesheet" href="profile.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <a href="discover.html"><img src="asset/logo.png" ></a>
+            <ul class="navbar">
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="friend.html">Friend</a></li>
+                <li><a class="active" href="profile.html">Profile</a></li>
+                <li><a href="login.html">SignOut</a></li>
+            </ul>
+    </nav>
+    
+    <main>
+        <div class="profile">
+            <img src="asset/profile/fab.jpg" id="photo">
+            <input type="file" id="file">
+            <label for="file" id="button">Edit Picture</label>
+        </div>
+        
+        <div id="content">
+            <hr />
+
+            <section class="information" id="personalInformation">
+                <h2>Personal Information</h2>
+                <div class="row">
+                    <div class="col">
+                        <label for="">Name</label>
+                        <input type="text" placeholder="Jonathan Ryan Halim">
+                    </div>
+                    <div class="col">
+                        <label for="">Student Id</label>
+                        <input type="text" placeholder="2502003113">
+                    </div>
+                    <div class="col">
+                        <label for="">Email</label>
+                        <input type="text" placeholder="fabian@gmail.com">
+                    </div>
+                    <div class="col">
+                        <label for="">Gender</label>
+                        <input type="text" placeholder="Male">
+                    </div>
+                    <div class="col">
+                        <label for="">Major</label>
+                        <input type="text" placeholder="Computer Science">
+                    </div>
+                    <div class="col">
+                        <label for="">Region</label>
+                        <input type="text" placeholder="Kemanggisan">
+                    </div>
+                </div>
+               
+            </section>
+
+            <hr />
+            
+            <section class="information" id="additionalInformation">
+                <h2>Additional Information</h2>
+                <div class="row">
+                    <div class="col">
+                        <label for="">Hobby 1</label>
+                        <input type="text" placeholder="Basket">
+                    </div>
+                    <div class="col">
+                        <label for="">Organization 1</label>
+                        <input type="text" placeholder="BNEC">
+                    </div>
+                    <div class="col">
+                        <label for="">Hobby 2</label>
+                        <input type="text" placeholder="-">
+                    </div>
+                    <div class="col">
+                        <label for="">Organization 2</label>
+                        <input type="text" placeholder="-">
+                    </div>
+                </div>
+            </section>
+
+            <hr />
+
+            <section class="information" id="socialMedia">
+                <h2>Social Media</h2>
+                <div class="row">
+                    <div class="col">
+                        <label for="">Instagram</label>
+                        <input type="text" placeholder="fab.lim">
+                    </div>
+                    <div class="col">
+                        <label for="">Whatsapp</label>
+                        <input type="text" placeholder="081256749850">
+                    </div>
+                </div>
+            </section>
+
+            <button onclick="alertFunction()">Save</button>
+
+            
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

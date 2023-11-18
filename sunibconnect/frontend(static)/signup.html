@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUNIBCONNECT| SignUp</title>
+
+    <link rel="stylesheet" href="signup.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <a href="login.html"><img src="asset/logo.png" ></a>
+            <ul class="navbar">
+                <li><a href="login.html">Discover</a></li>
+                <li><a href="login.html">Friend</a></li>
+                <li><a href="login.html">Profile</a></li>
+                <li><a class="active" href="login.html">Login</a></li>
+            </ul>
+    </nav>
+
+    <main>
+        <form class="form" id="form">
+            <h3>Sign Up</h3>
+            <div class="form-control">
+                <input type="text" placeholder="Name" id="name">
+            </div>
+            <div class="form-control">
+                <input type="text" placeholder="Student ID" id="name">
+            </div>
+            <div class="form-control">
+                <input type="text" placeholder="Email" id="name">
+            </div>
+            <div class="form-control">
+                <input type="text" placeholder="Password" id="name">
+            </div>
+            <div class="form-control">
+                <input type="text" placeholder="Confirm Password" id="name">
+            </div>
+            <div class="form-control">
+                <select id="gender">
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <select id="major">
+                    <option value="">Select Major</option>
+                    <option value="computer_science">Computer Science</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="business">Business</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <select id="region">
+                    <option value="">Select Region</option>
+                    <option value="alsut">Alsut</option>
+                    <option value="bandung">Bandung</option>
+                    <option value="bekasi">Bekasi</option>
+                    <option value="kemanggisan">Kemanggisan</option>
+                    <option value="malang">Malang</option>
+                    <option value="semarang">Semarang</option>
+                </select>
+            </div>
+            <button id="signup-btn">Sign Up</button>
+            
+            <button type="button" id="login-btn" onclick="location.href='login.html'">Log in</button>
+        </form>
+    </main>
+</body>
+</html>
